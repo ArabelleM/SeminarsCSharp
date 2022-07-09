@@ -16,13 +16,3 @@ int day; // дни
 // int test = 5/3;
 day = (h - b - 1) / (a - b) + 1;
 Console.Write(day);
-//
-int h1 = 0;
-int day1 = 0;
-while (h1 < (h - a) )
-{
-    h1 = h1 + a - b;
-    day1++;
-}
-
-Console.Write(day1 + 1);
